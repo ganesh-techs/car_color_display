@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div >
+            <img src="lambogini_blue.jpeg" alt="car"  id="im">
+        </div>
+        <div class="content">
+            <div class="cont"><br>
+            <h3>CAR</h3>
+            <h2>Lamborghini Huracan Evo Spyder</h2>
+            <ul class="specification">
+                <li class="mile"> <img src="./asset/car.png" alt="">Mileage: 4,000 miles</li>
+                <li class="fuel"><img src="./asset/gas-station.png" alt="">Fuel: 25mpg</li>
+                <li class="Safety"><img src="./asset/shield.png" alt="">Safety &#11088;&#11088;&#11088;&#11088;&#11088; </li>
+
+            </ul>
+            <div class="pick">
+                <p>Pick a color: </p>
+                
+                <button onclick="blue()" class="blue b"></button>
+                <button onclick="green()" class="green b"></button>
+                <button onclick="white()" class="white b"></button>
+                <span class="price"> $333,450</span><span class="price"><del>$140,500</del></span><br>
+                <button id="cart" onclick="add()"> Add to cart</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
